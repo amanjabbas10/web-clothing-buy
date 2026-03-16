@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: "Poppins",sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav1 { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+
+.nav1 img{
+    max-width: 200px;
+    margin-bottom: 5px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: #232423;
+    font-weight: 600;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+    
+}
+.nav1 a:hover{
+color:#0088a9 ;
+transform: scale(0.9);
+}
+.nav1 i{
+    font-size: 19px;
+    transition: all 0.3s ease 0s;
+}
+.nav1 i:hover{
+    color: #0088a9;
+    transform: scale(0.9);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/011.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 13rem; 
+
+}
+
+.home .content h1{
+    color:white;
+    margin-left: 2rem;
+    font-weight: 900;
+    font-size: 50px;    
+}
+.home .content p{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+.btn1{
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: none;
+  background: none;
+  color: white;
+  margin-left: 34rem;
+  font-size: 19px;
+  font-weight: 600;
+  width: 13%;
+  padding: 5px ;
+  transition: all 0.3s ease 0s ;
+}
+
+.btn1:hover{
+    background-color: #0088a9;
+    border: none;
+    transform: scale(0.9);
+}
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: 600;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+}
+.hr1{
+max-width: 125px;
+margin-left: 35.6rem;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 5px;
+}
+
+
+.card {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 35px;
+    transition: all 0.3s ease 0s;
+}
+ .card:hover{
+    transform: scale(0.95);
+    border: 1px solid black;
+}
+.card img{
+    max-width: 500px;
+    margin-top: 1rem;
+}
+.card .card-body h5{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.card .card-body p{
+    font-size: 12px;
+    text-align:center;
+}
+
+.btn2{
+    border: none;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 18px;
+}
+.a-navbar1{
+    text-decoration: none;
+    color: black;
+}
+.a-navbar1:hover{
+ text-decoration: underline;
+}
+.fa-regular{
+font-size: 28px;
+margin-top: 6px;
+margin-left: 9px;
+color: #232423;
+transition: all 0.3s ease 0s;
+position: fixed;
+}
+.fa-regular:hover{
+    color: #505050;
+    transform: scale(0.95);
+}
+ 
+.form1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1 img{
+    margin-right: 10rem;
+}
+
+.form1 .form2 .form3 form{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.form1 .form2 .form3 form input{
+    border-radius: 12px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.send{
+    border:none;
+    background: none;
+    border: 1px solid black;
+    width: 15%;
+    font-size: 17px;
+}
+form textarea{
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-top: 13px;
+    
+} 
+
+
+
+/* part nav bar 2 start */
+
+
+
+
+.amanj1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amanj1 .amanj2 .amanj3 h1{
+    font-size: 50px;
+   font-weight: 700;
+   text-align: center;
+}
+.amanj1 .amanj2 .amanj3 p{
+    font-size: 15px;
+    text-align:start;
+    margin: 3rem;
+}
+.img02{
+ max-width: 500px;   
+ border-radius: 5px;
+ margin-right : 3rem;
+
+}
+.btn--1{
+    border: none;
+    background: none;
+    margin-left: 5rem;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+.btn--1:hover{
+    background:black;
+    color: white;
+    transform: scale(0.95);   
+}
+.btn--2{
+    border: none;
+    background: none;
+    margin-left: 5rem;
+    font-size: 18px;
+    background: #232423;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 5rem;
+}
+.btn--2:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transform: scale(0.95);
+}
+.btn-card{
+    border: none;
+    background: none;
+    border: 1px solid #232423;
+    width: 10rem;
+    padding: 3px;
+     border-radius: 5px;
+     margin-left: 0.9rem;
+     transition: all 0.3s ease 0s;
+}
+.btn-card:hover{
+    background: #232423;
+    color: white;
+    transform: scale(0.9);
+}
+.hr-card-nabvar2{
+    width: 50rem;
+    border: 1.4px solid black;
+    border-radius: 7px;
+    margin-left: 14rem;
+    margin-top: 3rem;
+}
+
+.foo1 a{
+  text-decoration: none;
+  color: #505050;
+  margin: 3.5rem;
+  transition: all 0.3s ease 0s;
+}
+.foo1{
+    color: #505050;
+}
+.foo1 a:hover{
+    color: #232423;
+text-decoration: underline;
+}
+
+/* part nav bar 2 end */
+    
+
