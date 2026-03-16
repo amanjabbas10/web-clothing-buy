@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [react()],
   base: process.env.NODE_ENV === 'production' ? './' : '/',
   build: { outDir: 'build' },
+  base:"/web-clothing-buy/"
 })
